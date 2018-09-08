@@ -7,7 +7,6 @@ import { regExpConfig } from '@reg'
 import { brandName } from '@config'
 import { clearGformCache2, login } from '@actions/common'
 import { /* login,  */staff, menu } from '@apis/common'
-import Logo from '@components/logo/logo'
 import QueuiAnim from 'rc-queue-anim'
 
 // import '@styles/base.less'
@@ -109,7 +108,6 @@ export default class Login extends Component {
                 }
               </QueuiAnim>
             </div>
-            <Logo />
           </div>
           <div className="login-main">
             <QueuiAnim delay={300} type="bottom" key="row">
